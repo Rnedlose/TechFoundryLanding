@@ -1,24 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/dist/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/dist/public/$1"
-    }
-  ],
-  "outputDirectory": "dist/public",
-  "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "framework": null
+  "outputDirectory": "dist/public"
 }
