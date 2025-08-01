@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+.env
+.env.*
+
+# Replit-specific files
+.replit
+.local
+.config
+repl_state.bin
