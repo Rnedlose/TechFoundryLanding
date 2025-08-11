@@ -12,22 +12,6 @@ export default function PortfolioSection() {
       technologies: ["AI Integration", "Google Tasks API", "Todoist API"],
       link: "https://www.synczybot.com/",
       status: "Live"
-    },
-    {
-      image: dndPortalImage,
-      title: "D&D Campaign Portal",
-      description: "Alpha project for managing Dungeons & Dragons and other tabletop roleplaying games online with comprehensive campaign tools.",
-      technologies: ["Next.js", "React", "TypeScript"],
-      link: "https://dnd-campaign-portal.vercel.app/",
-      status: "Alpha"
-    },
-    {
-      image: "https://cdn.sanity.io/images/8nssn5r4/production/18bf2de68f7efcb340d1810f0022b4c001afac88-5184x3456.jpg?rect=0,599,5184,2258&w=800&h=400",
-      title: "Blog with w00k",
-      description: "Personal blog focused on tabletop gaming, RPGs, and creative storytelling with insights into game design.",
-      technologies: ["Next.js", "Sanity CMS", "Vercel"],
-      link: "https://blog-with-w00k.vercel.app/",
-      status: "Live"
     }
   ];
 
